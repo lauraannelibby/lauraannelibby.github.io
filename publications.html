@@ -5,136 +5,148 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<title>Laura A Libby</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-70964501-1', 'auto');
-  ga('send', 'pageview');
+<head>
+    <title>Laura A Libby</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-xlarge.css" />
+    </noscript>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o)
+                , m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-</script>
-        <!-- Scrolling action! -->
-        <script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        ga('create', 'UA-70964501-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Scrolling action! -->
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top - 70
-	        }, 750);
-	        return false;
-	      }
-	    }
-	  });
-	});
-	</script>
-	</head>
-    
-	<body class="landing">
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top - 70
+                        }, 750);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+</head>
 
-<!-- Header -->
-    		<header id="header" class="alt">
-                <h1><a href="#connect">Laura A Libby</a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-                        <li><a href="#banner">Publications</a></li>
-						<li><a href="files/LauraLibby_CV.pdf" target="_blank">CV</a></li>
-						<li><a href="misc.html">Links</a></li>
-                        <li><a href="#connect">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
-<!-- Banner -->
-			<section id="banner">
-				<h2><br><a href="#connect">Publications</a><br><br></h2>
-			<!--	<ul class="actions">
+<body class="landing">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        <h1><a href="#connect">Laura A Libby</a></h1>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#banner">Publications</a></li>
+                <li><a href="files/LauraLibby_CV.pdf" target="_blank">CV</a></li>
+                <li><a href="misc.html">Links</a></li>
+                <li><a href="#connect">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Banner -->
+    <section id="banner">
+        <h2><br><a href="#connect">Publications</a><br><br></h2>
+        <!--	<ul class="actions">
 					 <li><a href="#" class="button special big">Get Started</a></li>
 				</ul> -->
-			</section>
-<!-- Header --> 
+    </section>
+    <!-- Header -->
 
-<!-- Main -->
-<div id="main" style="padding-bottom: 3em;">
-    <div class="bar">
-        				<div class="container">
-					<ul>
-						<li><a href="#inprep">In preparation</a></li>
-					<li><a href="#review">Under review</a></li>	
-                        <!-- <li><a href="#inpress">In press</a></li> -->
-                        <li><a href="#2016">2016</a></li>
-                        <li><a href="#2015">2015</a></li>
-                        <li><a href="#2014">2014</a></li>
-                        <li><a href="#2013">2013</a></li>
-                        <li><a href="#2012">2012</a></li>
-                        <li><a href="#book">Book chapters</a></li>
-					</ul>
-				</div>
-    </div>
-    <div class="container">            
-            
-           <section id="pubs" >
-					<div class="container">
-						<div class="row 200%">
-							<div class="3u 12u$(medium)">
-                    <header id="inprep">
-                        <h2>In Preparation</h2>
-                    </header>
-                            </div>
-                            <div class="9u$ 12u$(medium)">
-                    
-<p class="pub">
-    <b>Libby LA</b>, Ranganath C, Yonelinas AP, Ragland, JD (In preparation). Neural correlates of successful recollection in schizophrenia.
-</p>                         
+    <!-- Main -->
+    <div id="main" style="padding-bottom: 3em;">
+        <div class="bar">
+            <div class="container">
+                <ul>
+                    <li><a href="#inprep">In preparation</a></li>
+                    <li><a href="#review">Under review</a></li>
+                    <!-- <li><a href="#inpress">In press</a></li> -->
+                    <li><a href="#2016">2016</a></li>
+                    <li><a href="#2015">2015</a></li>
+                    <li><a href="#2014">2014</a></li>
+                    <li><a href="#2013">2013</a></li>
+                    <li><a href="#2012">2012</a></li>
+                    <li><a href="#book">Book chapters</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
 
-<p class="pub">
-    Roberts BM, <b>Libby LA</b>, Ranganath C (In preparation). Brain activity related to the temporal order and precision of working memory representations.
-</p>
-                                
-<p class="pub">
-    Ritchey M, <b>Libby LA</b>, Ranganath C (In preparation). Applications of fMRI pattern information analysis to the study of memory.
-</p>
-                            </div> </div> </div>              
+            <section id="pubs">
+                <div class="container">
+                    <div class="row 200%">
+                        <div class="3u 12u$(medium)">
+                            <header id="inprep">
+                                <h2>In Preparation</h2>
+                            </header>
+                        </div>
+                        <div class="9u$ 12u$(medium)">
 
-               <div class="container">
-						<div class="row 200%">
-							<div class="3u 12u$(medium)">                     <header id="review">
-                        <h2>Under Review</h2>
-                    </header>     
-                            </div>
-                            <div class="9u$ 12u$(medium)">
+                            <p class="pub">
+                                <b>Libby LA</b>, Ranganath C, Yonelinas AP, Ragland, JD (In preparation). Neural correlates of successful recollection in schizophrenia.
+                            </p>
 
-<p class="pub">
-    <b>Libby LA</b>, Ragland JD, Ranganath C (Under revision). The hippocampus generalizes across memories that share item and context information.
-</p>                                
-                                                
-<p class="pub">
-    Koslowski BM, O’Connor K, <b>Libby LA</b>, Golub N (Under review). Not all anomalies are created equal: Strong and weak anomalies function differently.
-</p>
-                            </div></div></div>
-               
-					
-  <!--             <div class="container">
+                            <p class="pub">
+                                Roberts BM, <b>Libby LA</b>, Ranganath C (In preparation). Brain activity related to the temporal order and precision of working memory representations.
+                            </p>
+
+                            <p class="pub">
+                                Ritchey M, <b>Libby LA</b>, Ranganath C (In preparation). Applications of fMRI pattern information analysis to the study of memory.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row 200%">
+                        <div class="3u 12u$(medium)">
+                            <header id="review">
+                                <h2>Under Review</h2>
+                            </header>
+                        </div>
+                        <div class="9u$ 12u$(medium)">
+
+                            <p class="pub">
+                                <b>Libby LA</b>, Ragland JD, Ranganath C (Under revision). The hippocampus generalizes across memories that share item and context information.
+                            </p>
+
+                            <p class="pub">
+                                Koslowski BM, O’Connor K, <b>Libby LA</b>, Golub N (Under review). Not all anomalies are created equal: Strong and weak anomalies function differently.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--             <div class="container">
 						<div class="row 200%">
 							<div class="3u 12u$(medium)">
                     <header id="inpress">
@@ -147,176 +159,195 @@
     Cook P, Reichmuth C, Rouse A, <b>Libby LA</b>, Dennison S, Stuppino J, Kruse K, Bloom J, Carmichael O, Van Bonn W,  Gulland F, Ranganath C (In press). The neurobehavioral effects of naturally occurring domoic acid toxicosis in wild California sea lions. <i>Science</i>.
 </p>
                             </div></div></div> -->
-               
-                    <div class="container">
-						<div class="row 200%">
-							<div class="3u 12u$(medium)">
-                    <header id="2016">
-                        <h2>2016</h2>
-                    </header>
-                            </div>
-                            <div class="9u$ 12u$(medium)">
-            
-<p class="pub">
-    Wang S-F, Ritchey M, <b>Libby LA</b>, Ranganath C (2016). Functional connectivity based parcellation of the human medial temporal lobe. <i>Neurobiology of Learning and Memory.</i> 
-                                    <a href="/files/Wang_NLM.pdf">[PDF]</a>
-                                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/26805590" target="_blank">[PubMed]</a>
-</p>
-    
-                            </div></div></div>
 
-                    
-					<div class="container">
-						<div class="row 200%">
-							<div class="3u 12u$(medium)">                      <header id="2015">
-                        <h2>2015</h2>
-                    </header>
-                            </div>
-                            <div class="9u$ 12u$(medium)">
+                <div class="container">
+                    <div class="row 200%">
+                        <div class="3u 12u$(medium)">
+                            <header id="2016">
+                                <h2>2016</h2>
+                            </header>
+                        </div>
+                        <div class="9u$ 12u$(medium)">
 
-                                <p class="pub">
-    Cook P, Reichmuth C, Rouse A, <b>Libby LA</b>, Dennison S, Stuppino J, Kruse K, Bloom J, Carmichael O, Van Bonn W,  Gulland F, Ranganath C (2015). The neurobehavioral effects of naturally occurring domoic acid toxicosis in wild California sea lions. <i>Science</i>. 
-                                    <a href="/files/Science-2015-Cook-science.aac5675.pdf" target="_blank">[PDF]</a>
-                                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/26668068" target="_blank">[PubMed]</a>
-                <a href="http://www.sciencemag.org/content/early/2015/12/14/science.aac5675/suppl/DC1" target="_blank">[Sea lion videos:</a>
-                                    <a href="http://www.sciencemag.org/content/suppl/2015/12/14/science.aac5675.DC1/aac5675-Cook-SM-movie-s1.mp4" target="_blank"> 1 </a>
-                   <a href="http://www.sciencemag.org/content/suppl/2015/12/14/science.aac5675.DC1/aac5675-Cook-SM-movie-s2.mp4" target="_blank"> 2 </a>
-                                    <a href="http://www.sciencemag.org/content/suppl/2015/12/14/science.aac5675.DC1/aac5675-Cook-SM-movie-s3.mp4" target="_blank"> 3 ]</a>
-                                    </p> 
-                                
-                                <p class="pub">
-    Maass A*, Berron D*, <b>Libby LA</b>, Ranganath C*, Duzel E* (2015). Functional subdivisions of the human entorhinal cortex. <i>eLife</i>, 2015;4:e06426. [*Denotes equal first and senior author contributions.] 
-                                    <a href="http://elifesciences.org/content/elife/4/e06426.full.pdf" target="_blank">[PDF]</a>
-                                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/26052749" target="_blank">[PubMed]</a>
-                                    <a href="http://elifesciences.org/content/4/e06426" target="_blank">[Open access]</a> 
-                                    <a href="http://elifesciences.org/content/4/e06426/media-1" target="_blank">[Super cool video]</a>
-                                </p> 
-                                
-<p class="pub">
-    Yushkevich PA, Amaral RSC, Augustinack JC, …, <b>Libby LA</b>, …, Zeineh MM (2015). A quantitative comparison of 21 protocols for labeling hippocampal subfields and parahippocampal gyrus subregions in in vivo MRI: Is a unified protocol feasible? <i>NeuroImage</i>, 111, 526-541.
-    <a href="files/YushkevichetalNIMG.pdf" target="_blank">[PDF]</a> 
-    <a href="http://www.ncbi.nlm.nih.gov/pubmed/25596463" target="_blank">[PubMed]</a>
-</p>
-                            </div></div></div>
+                            <p class="pub">
+                                Wang S-F, Ritchey M, <b>Libby LA</b>, Ranganath C (2016). Functional connectivity based parcellation of the human medial temporal lobe. <i>Neurobiology of Learning and Memory.</i>
+                                <a href="/files/Wang_NLM.pdf">[PDF]</a>
+                                <a href="http://www.ncbi.nlm.nih.gov/pubmed/26805590" target="_blank">[PubMed]</a>
+                            </p>
 
-					<div class="container">
-						<div class="row 200%">
-							<div class="3u 12u$(medium)"> 
-                      <header id="2014">
-                        <h2>2014</h2>
-                    </header>
-                            </div>
-                            <div class="9u$ 12u$(medium)">
+                        </div>
+                    </div>
+                </div>
 
-<p class="pub">
-    <b>Libby LA</b>, Hannula DE, Ranganath C (2014). Medial temporal lobe coding of item and spatial information during relational binding in working memory. <i>The Journal of Neuroscience</i>, 34, 14233-14242.
-    <a href="files/proofs2_JN-RM-0655-14.pdf" target="_blank">[PDF]</a><a href="http://www.ncbi.nlm.nih.gov/pubmed/25339737" target="_blank">[PubMed]</a>
-</p>
-<p class="pub">
-    Copara MS, Hassan AS, Kyle CT, <b>Libby LA</b>, Ranganath C, Ekstrom AD (2014). Complimentary roles of human hippocampal subregions during retrieval of spatiotemporal context. <i>The Journal of Neuroscience</i>, 34, 6834-6842.
-    <a href="files/copara.pdf" target="_blank">[PDF]</a> 
-    <a href="http://www.ncbi.nlm.nih.gov/pubmed/24828637" target="_blank">[PubMed]</a>
-</p>
-                            </div></div></div>
-     
-					<div class="container">
-						<div class="row 200%">
-							<div class="3u 12u$(medium)"> 
-                      <header id="2013">
-                        <h2>2013</h2>
-                    </header>
-                            </div>
-                            <div class="9u$ 12u$(medium)">
 
-<p class="pub">
-    Hannula DE, <b>Libby LA</b>, Yonelinas AP, Ranganath C (2013). Medial temporal lobe contributions to cued recall of items and context. <i>Neuropsychologia</i>, 51, 2322-2332.
-    <a href="files/HLYR.pdf" target="_blank">[PDF]</a> 
-    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23466350" target="_blank">[PubMed]</a>
-</p>
-                        
-<p class="pub">
-    <b>Libby LA</b>, Yonelinas AP, Ranganath C, Ragland JD (2013). Recollection and familiarity in schizophrenia: A computational review. <i>Biological Psychiatry</i>, 73, 944-950.
-    <a href="files/corrected_proof.pdf" target="_blank">[PDF]</a> 
-    <a href="http://www.ncbi.nlm.nih.gov/pubmed/23245761" target="_blank">[PubMed]</a>
-</p>
-                            </div></div></div>                    
-					<div class="container">
-						<div class="row 200%">
-							<div class="3u 12u$(medium)"> 
-                      <header id="2012">
-                        <h2>2012</h2>
-                    </header>
-                            </div>
-                            <div class="9u$ 12u$(medium)">
+                <div class="container">
+                    <div class="row 200%">
+                        <div class="3u 12u$(medium)">
+                            <header id="2015">
+                                <h2>2015</h2>
+                            </header>
+                        </div>
+                        <div class="9u$ 12u$(medium)">
 
-<p class="pub">
-    <b>Libby LA</b>, Ekstrom AD, Ragland JD, Ranganath C (2012). Differential connectivity of perirhinal and parahippocampal cortices within human hippocampal subregions revealed by high-resolution functional imaging. <i>The Journal of Neuroscience</i>, 32, 6550-6560.
-    <a href="files/Libby%20et%20al.%202012.pdf" target="_blank">[PDF]</a> 
-    <a href="http://www.ncbi.nlm.nih.gov/pubmed/22573677" target="_blank">[PubMed]</a>
-</p>
-                            </div></div></div>  
-               
-					<div class="container">
-						<div class="row 200%">
-							<div class="3u 12u$(medium)"> 
-                      <header id="book">
-                        <h2>Book Chapters</h2>
-                    </header>
-                            </div>
-                            <div class="9u$ 12u$(medium)">
+                            <p class="pub">
+                                Cook P, Reichmuth C, Rouse A, <b>Libby LA</b>, Dennison S, Stuppino J, Kruse K, Bloom J, Carmichael O, Van Bonn W, Gulland F, Ranganath C (2015). The neurobehavioral effects of naturally occurring domoic acid toxicosis in wild California sea lions. <i>Science</i>.
+                                <a href="/files/Science-2015-Cook-science.aac5675.pdf" target="_blank">[PDF]</a>
+                                <a href="http://www.ncbi.nlm.nih.gov/pubmed/26668068" target="_blank">[PubMed]</a>
+                                <a href="http://www.sciencemag.org/content/early/2015/12/14/science.aac5675/suppl/DC1" target="_blank">[Sea lion videos:</a>
+                                <a href="http://www.sciencemag.org/content/suppl/2015/12/14/science.aac5675.DC1/aac5675-Cook-SM-movie-s1.mp4" target="_blank"> 1 </a>
+                                <a href="http://www.sciencemag.org/content/suppl/2015/12/14/science.aac5675.DC1/aac5675-Cook-SM-movie-s2.mp4" target="_blank"> 2 </a>
+                                <a href="http://www.sciencemag.org/content/suppl/2015/12/14/science.aac5675.DC1/aac5675-Cook-SM-movie-s3.mp4" target="_blank"> 3 ]</a>
+                            </p>
 
-<p class="pub">
-    Ritchey M, <b>Libby LA</b>, Ranganath C (In press). Cortico-hippocampal systems involved in memory and cognition: The PMAT framework. In S O’Mara & M Tsanov (Eds), <i>The Connected Hippocampus</i>. In V Walsh (Series Ed), <i>Progress in Brain Research</i>. Elsevier.
-    <a href="files/RLR_PMAT.pdf" target="_blank">[PDF]</a>
-</p>
-                    
-<p class="pub">
-    Arzi A, Cox JC, D’Souza D, …, <b>Libby LA</b>, …, Wood S (2014). The significance of cognitive neuroscience: Findings, applications, and challenges. In M.S. Gazzaniga (Ed.), <i>The Cognitive Neurosciences</i> (5th ed.). Cambridge, MA: The MIT Press.
-</p>
-                    
- <p class="pub">
-     Ranganath C, <b>Libby LA</b>, Wong L (2012). Human Learning and Memory. In K. Frankish &amp; W. Ramsey (Eds), <i>The Cambridge Handbook of Cognitive Science</i>. Cambridge University Press.
-</p>
+                            <p class="pub">
+                                Maass A*, Berron D*, <b>Libby LA</b>, Ranganath C*, Duzel E* (2015). Functional subdivisions of the human entorhinal cortex. <i>eLife</i>, 2015;4:e06426. [*Denotes equal first and senior author contributions.]
+                                <a href="http://elifesciences.org/content/elife/4/e06426.full.pdf" target="_blank">[PDF]</a>
+                                <a href="http://www.ncbi.nlm.nih.gov/pubmed/26052749" target="_blank">[PubMed]</a>
+                                <a href="http://elifesciences.org/content/4/e06426" target="_blank">[Open access]</a>
+                                <a href="http://elifesciences.org/content/4/e06426/media-1" target="_blank">[Super cool video]</a>
+                            </p>
 
-<p class="pub">
-    <b>Libby LA</b>, Ragland JD (2012). fMRI as a Measure of Cognition-Related Brain Circuitry in Schizophrenia. In J.W. Dalley &amp; CS. Carter (Eds), <i>Brain Imaging in Behavioral Neuroscience</i>. In M.A. Geyer, B.A. Ellenbroek, &amp; CA. Marsden (Series Eds), <i>Current Topics in Behavioral Neurosciences</i>. Springer Science.
-    <a href="files/Libby%20&amp;%20Ragland.pdf" target="_blank">[PDF]</a> 
-    <a href="http://www.ncbi.nlm.nih.gov/pubmed/22105156" target="_blank">[PubMed]</a>
-</p>
-           
-                            </div></div></div>  
-          
+                            <p class="pub">
+                                Yushkevich PA, Amaral RSC, Augustinack JC, …, <b>Libby LA</b>, …, Zeineh MM (2015). A quantitative comparison of 21 protocols for labeling hippocampal subfields and parahippocampal gyrus subregions in in vivo MRI: Is a unified protocol feasible? <i>NeuroImage</i>, 111, 526-541.
+                                <a href="files/YushkevichetalNIMG.pdf" target="_blank">[PDF]</a>
+                                <a href="http://www.ncbi.nlm.nih.gov/pubmed/25596463" target="_blank">[PubMed]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-</section>
+                <div class="container">
+                    <div class="row 200%">
+                        <div class="3u 12u$(medium)">
+                            <header id="2014">
+                                <h2>2014</h2>
+                            </header>
+                        </div>
+                        <div class="9u$ 12u$(medium)">
+
+                            <p class="pub">
+                                <b>Libby LA</b>, Hannula DE, Ranganath C (2014). Medial temporal lobe coding of item and spatial information during relational binding in working memory. <i>The Journal of Neuroscience</i>, 34, 14233-14242.
+                                <a href="files/proofs2_JN-RM-0655-14.pdf" target="_blank">[PDF]</a><a href="http://www.ncbi.nlm.nih.gov/pubmed/25339737" target="_blank">[PubMed]</a>
+                            </p>
+                            <p class="pub">
+                                Copara MS, Hassan AS, Kyle CT, <b>Libby LA</b>, Ranganath C, Ekstrom AD (2014). Complimentary roles of human hippocampal subregions during retrieval of spatiotemporal context. <i>The Journal of Neuroscience</i>, 34, 6834-6842.
+                                <a href="files/copara.pdf" target="_blank">[PDF]</a>
+                                <a href="http://www.ncbi.nlm.nih.gov/pubmed/24828637" target="_blank">[PubMed]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row 200%">
+                        <div class="3u 12u$(medium)">
+                            <header id="2013">
+                                <h2>2013</h2>
+                            </header>
+                        </div>
+                        <div class="9u$ 12u$(medium)">
+
+                            <p class="pub">
+                                Hannula DE, <b>Libby LA</b>, Yonelinas AP, Ranganath C (2013). Medial temporal lobe contributions to cued recall of items and context. <i>Neuropsychologia</i>, 51, 2322-2332.
+                                <a href="files/HLYR.pdf" target="_blank">[PDF]</a>
+                                <a href="http://www.ncbi.nlm.nih.gov/pubmed/23466350" target="_blank">[PubMed]</a>
+                            </p>
+
+                            <p class="pub">
+                                <b>Libby LA</b>, Yonelinas AP, Ranganath C, Ragland JD (2013). Recollection and familiarity in schizophrenia: A computational review. <i>Biological Psychiatry</i>, 73, 944-950.
+                                <a href="files/corrected_proof.pdf" target="_blank">[PDF]</a>
+                                <a href="http://www.ncbi.nlm.nih.gov/pubmed/23245761" target="_blank">[PubMed]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row 200%">
+                        <div class="3u 12u$(medium)">
+                            <header id="2012">
+                                <h2>2012</h2>
+                            </header>
+                        </div>
+                        <div class="9u$ 12u$(medium)">
+
+                            <p class="pub">
+                                <b>Libby LA</b>, Ekstrom AD, Ragland JD, Ranganath C (2012). Differential connectivity of perirhinal and parahippocampal cortices within human hippocampal subregions revealed by high-resolution functional imaging. <i>The Journal of Neuroscience</i>, 32, 6550-6560.
+                                <a href="files/Libby%20et%20al.%202012.pdf" target="_blank">[PDF]</a>
+                                <a href="http://www.ncbi.nlm.nih.gov/pubmed/22573677" target="_blank">[PubMed]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row 200%">
+                        <div class="3u 12u$(medium)">
+                            <header id="book">
+                                <h2>Book Chapters</h2>
+                            </header>
+                        </div>
+                        <div class="9u$ 12u$(medium)">
+
+                            <p class="pub">
+                                Ritchey M, <b>Libby LA</b>, Ranganath C (In press). Cortico-hippocampal systems involved in memory and cognition: The PMAT framework. In S O’Mara & M Tsanov (Eds), <i>The Connected Hippocampus</i>. In V Walsh (Series Ed), <i>Progress in Brain Research</i>. Elsevier.
+                                <a href="files/RLR_PMAT.pdf" target="_blank">[PDF]</a>
+                            </p>
+
+                            <p class="pub">
+                                Arzi A, Cox JC, D’Souza D, …, <b>Libby LA</b>, …, Wood S (2014). The significance of cognitive neuroscience: Findings, applications, and challenges. In M.S. Gazzaniga (Ed.), <i>The Cognitive Neurosciences</i> (5th ed.). Cambridge, MA: The MIT Press.
+                            </p>
+
+                            <p class="pub">
+                                Ranganath C, <b>Libby LA</b>, Wong L (2012). Human Learning and Memory. In K. Frankish &amp; W. Ramsey (Eds), <i>The Cambridge Handbook of Cognitive Science</i>. Cambridge University Press.
+                            </p>
+
+                            <p class="pub">
+                                <b>Libby LA</b>, Ragland JD (2012). fMRI as a Measure of Cognition-Related Brain Circuitry in Schizophrenia. In J.W. Dalley &amp; CS. Carter (Eds), <i>Brain Imaging in Behavioral Neuroscience</i>. In M.A. Geyer, B.A. Ellenbroek, &amp; CA. Marsden (Series Eds), <i>Current Topics in Behavioral Neurosciences</i>. Springer Science.
+                                <a href="files/Libby%20&amp;%20Ragland.pdf" target="_blank">[PDF]</a>
+                                <a href="http://www.ncbi.nlm.nih.gov/pubmed/22105156" target="_blank">[PubMed]</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
         </div>
     </div>
 
-        <!-- Tweet -->
-	<section id="connect" class="wrapper style3 special">
-					<div class="container">
-						<header class="major">
-                            <h2>connect</h2>
-							<p><font style="text-transform: lowercase;">l a libby at uc davis dot edu</font></p>
-						</header>
-							<div class="row"><section class="12u"> <a class="button icon" href="mailto:lalibby@ucdavis.edu" target="_top"><span class="fa fa-envelope"></span> Email</a>
-    <a class="button button-style1" href="http://www.ncbi.nlm.nih.gov/pubmed?term=(Libby%2C%20Laura%20A%5BAuthor%5D)%20AND%20(%222012%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)" target="_blank">PubMed</a> 
-    <a class="button " target="_blank" href="https://www.researchgate.net/profile/Laura_Libby/">ResearchGate</a> 
-    <a class="button button-style1" target="_blank" href="http://www.linkedin.com/in/lauraannelibby/">LinkedIn</a> 
-    <a class="button button-style1" target="_blank" href="http://neurotree.org/neurotree/tree.php?pid=66633">Neurotree</a> 
-    <a class="button button-style1" target="_blank" href="http://scholar.google.com/citations?user=jJkSQd0AAAAJ">Scholar</a> </section>
-						
-                        </div></div>
-				</section>
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="copyright">
-						<li>&copy; <script language="JavaScript" type="text/javascript">document.write((new Date()).getFullYear());</script> 
-                  Laura A Libby</li>
-						<li>Design by <a href="http://templated.co">TEMPLATED</a></li>
-					</ul>
-				</div>
-			</footer>
+    <!-- Tweet -->
+    <section id="connect" class="wrapper style3 special">
+        <div class="container">
+            <header class="major">
+                <h2>connect</h2>
+                <p><font style="text-transform: lowercase;">l a libby at uc davis dot edu</font></p>
+            </header>
+            <div class="row">
+                <section class="12u"> <a class="button icon" href="mailto:lalibby@ucdavis.edu" target="_top"><span class="fa fa-envelope"></span> Email</a>
+                    <a class="button button-style1" href="http://www.ncbi.nlm.nih.gov/pubmed?term=(Libby%2C%20Laura%20A%5BAuthor%5D)%20AND%20(%222012%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)" target="_blank">PubMed</a>
+                    <a class="button " target="_blank" href="https://www.researchgate.net/profile/Laura_Libby/">ResearchGate</a>
+                    <a class="button button-style1" target="_blank" href="http://www.linkedin.com/in/lauraannelibby/">LinkedIn</a>
+                    <a class="button button-style1" target="_blank" href="http://neurotree.org/neurotree/tree.php?pid=66633">Neurotree</a>
+                    <a class="button button-style1" target="_blank" href="http://scholar.google.com/citations?user=jJkSQd0AAAAJ">Scholar</a> </section>
 
-	</body>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="copyright">
+                <li>&copy;
+                    <script language="JavaScript" type="text/javascript">
+                        document.write((new Date()).getFullYear());
+                    </script>
+                    Laura A Libby</li>
+                <li>Design by <a href="http://templated.co">TEMPLATED</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
 </html>
