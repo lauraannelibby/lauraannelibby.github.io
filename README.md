@@ -3,9 +3,10 @@
 ## Laura A Libby's Website
 
 
-Theme *Linear* by [Templated][1] 
+Theme [*Spatial*][1] by [Templated][2] 
 
 Content copyright Laura A Libby.
 
-[1]: http://templated.co/ "Templated"
+[1]: http://http://templated.co/spatial "Spatial"
+[2]: http://templated.co/ "Templated"
 
